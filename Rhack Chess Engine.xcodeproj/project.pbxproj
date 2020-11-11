@@ -3,11 +3,29 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 54;
 	objects = {
 
 /* Begin PBXBuildFile section */
 		8444D8902544FDD4008C3304 /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8444D88F2544FDD4008C3304 /* main.swift */; };
+		8444D8992544FFF9008C3304 /* CommandLineParser.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8444D8982544FFF9008C3304 /* CommandLineParser.swift */; };
+		8444D89D25450458008C3304 /* StringExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8444D89C25450458008C3304 /* StringExtension.swift */; };
+		8444D8A12545054D008C3304 /* ArrayExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8444D8A02545054D008C3304 /* ArrayExtension.swift */; };
+		8444D8A52545062C008C3304 /* UCIEngine.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8444D8A42545062C008C3304 /* UCIEngine.swift */; };
+		8444D8A92545069F008C3304 /* Log.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8444D8A82545069F008C3304 /* Log.swift */; };
+		8444D8AD2545080E008C3304 /* Position.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8444D8AC2545080E008C3304 /* Position.swift */; };
+		8444D8B025450838008C3304 /* PositionExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8444D8AF25450838008C3304 /* PositionExtension.swift */; };
+		8444D8B32545097F008C3304 /* Piece.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8444D8B22545097F008C3304 /* Piece.swift */; };
+		8444D8B625450999008C3304 /* Player.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8444D8B525450999008C3304 /* Player.swift */; };
+		8444D8B925450B36008C3304 /* Move.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8444D8B825450B36008C3304 /* Move.swift */; };
+		8444D8BC25450BAE008C3304 /* Location.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8444D8BB25450BAE008C3304 /* Location.swift */; };
+		8444D8BF25450E24008C3304 /* Board.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8444D8BE25450E24008C3304 /* Board.swift */; };
+		8444D8C325450EB1008C3304 /* BestMove.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8444D8C225450EB1008C3304 /* BestMove.swift */; };
+		8444D8C725450EDB008C3304 /* Evaluate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8444D8C625450EDB008C3304 /* Evaluate.swift */; };
+		8444D8CA25450F0B008C3304 /* PieceExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8444D8C925450F0B008C3304 /* PieceExtension.swift */; };
+		8444D8CE2545100A008C3304 /* ChessErrors.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8444D8CD2545100A008C3304 /* ChessErrors.swift */; };
+		8444D8D12545104D008C3304 /* CastlingOptions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8444D8D02545104D008C3304 /* CastlingOptions.swift */; };
+		8444D8D425451096008C3304 /* BoardExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8444D8D325451096008C3304 /* BoardExtension.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -25,6 +43,24 @@
 /* Begin PBXFileReference section */
 		8444D88C2544FDD4008C3304 /* Rhack Chess Engine */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "Rhack Chess Engine"; sourceTree = BUILT_PRODUCTS_DIR; };
 		8444D88F2544FDD4008C3304 /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
+		8444D8982544FFF9008C3304 /* CommandLineParser.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CommandLineParser.swift; sourceTree = "<group>"; };
+		8444D89C25450458008C3304 /* StringExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StringExtension.swift; sourceTree = "<group>"; };
+		8444D8A02545054D008C3304 /* ArrayExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ArrayExtension.swift; sourceTree = "<group>"; };
+		8444D8A42545062C008C3304 /* UCIEngine.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UCIEngine.swift; sourceTree = "<group>"; };
+		8444D8A82545069F008C3304 /* Log.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Log.swift; sourceTree = "<group>"; };
+		8444D8AC2545080E008C3304 /* Position.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Position.swift; sourceTree = "<group>"; };
+		8444D8AF25450838008C3304 /* PositionExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PositionExtension.swift; sourceTree = "<group>"; };
+		8444D8B22545097F008C3304 /* Piece.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Piece.swift; sourceTree = "<group>"; };
+		8444D8B525450999008C3304 /* Player.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Player.swift; sourceTree = "<group>"; };
+		8444D8B825450B36008C3304 /* Move.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Move.swift; sourceTree = "<group>"; };
+		8444D8BB25450BAE008C3304 /* Location.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Location.swift; sourceTree = "<group>"; };
+		8444D8BE25450E24008C3304 /* Board.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Board.swift; sourceTree = "<group>"; };
+		8444D8C225450EB1008C3304 /* BestMove.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BestMove.swift; sourceTree = "<group>"; };
+		8444D8C625450EDB008C3304 /* Evaluate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Evaluate.swift; sourceTree = "<group>"; };
+		8444D8C925450F0B008C3304 /* PieceExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PieceExtension.swift; sourceTree = "<group>"; };
+		8444D8CD2545100A008C3304 /* ChessErrors.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChessErrors.swift; sourceTree = "<group>"; };
+		8444D8D02545104D008C3304 /* CastlingOptions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CastlingOptions.swift; sourceTree = "<group>"; };
+		8444D8D325451096008C3304 /* BoardExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BoardExtension.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -41,6 +77,11 @@
 		8444D8832544FDD4008C3304 = {
 			isa = PBXGroup;
 			children = (
+				8444D8CC25450FFB008C3304 /* Globals */,
+				8444D8C125450E9E008C3304 /* Logic */,
+				8444D8AB254507FB008C3304 /* GameFiles */,
+				8444D8A325450606008C3304 /* UCIEngine */,
+				8444D89B25450432008C3304 /* Extensions */,
 				8444D88E2544FDD4008C3304 /* Rhack Chess Engine */,
 				8444D88D2544FDD4008C3304 /* Products */,
 			);
@@ -58,8 +99,61 @@
 			isa = PBXGroup;
 			children = (
 				8444D88F2544FDD4008C3304 /* main.swift */,
+				8444D8982544FFF9008C3304 /* CommandLineParser.swift */,
 			);
 			path = "Rhack Chess Engine";
+			sourceTree = "<group>";
+		};
+		8444D89B25450432008C3304 /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				8444D89C25450458008C3304 /* StringExtension.swift */,
+				8444D8D325451096008C3304 /* BoardExtension.swift */,
+				8444D8C925450F0B008C3304 /* PieceExtension.swift */,
+				8444D8A02545054D008C3304 /* ArrayExtension.swift */,
+				8444D8AF25450838008C3304 /* PositionExtension.swift */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+		8444D8A325450606008C3304 /* UCIEngine */ = {
+			isa = PBXGroup;
+			children = (
+				8444D8A42545062C008C3304 /* UCIEngine.swift */,
+				8444D8A82545069F008C3304 /* Log.swift */,
+			);
+			path = UCIEngine;
+			sourceTree = "<group>";
+		};
+		8444D8AB254507FB008C3304 /* GameFiles */ = {
+			isa = PBXGroup;
+			children = (
+				8444D8AC2545080E008C3304 /* Position.swift */,
+				8444D8B525450999008C3304 /* Player.swift */,
+				8444D8BE25450E24008C3304 /* Board.swift */,
+				8444D8BB25450BAE008C3304 /* Location.swift */,
+				8444D8B825450B36008C3304 /* Move.swift */,
+				8444D8B22545097F008C3304 /* Piece.swift */,
+			);
+			path = GameFiles;
+			sourceTree = "<group>";
+		};
+		8444D8C125450E9E008C3304 /* Logic */ = {
+			isa = PBXGroup;
+			children = (
+				8444D8C225450EB1008C3304 /* BestMove.swift */,
+				8444D8C625450EDB008C3304 /* Evaluate.swift */,
+			);
+			path = Logic;
+			sourceTree = "<group>";
+		};
+		8444D8CC25450FFB008C3304 /* Globals */ = {
+			isa = PBXGroup;
+			children = (
+				8444D8CD2545100A008C3304 /* ChessErrors.swift */,
+				8444D8D02545104D008C3304 /* CastlingOptions.swift */,
+			);
+			path = Globals;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -97,7 +191,7 @@
 				};
 			};
 			buildConfigurationList = 8444D8872544FDD4008C3304 /* Build configuration list for PBXProject "Rhack Chess Engine" */;
-			compatibilityVersion = "Xcode 9.3";
+			compatibilityVersion = "Xcode 12.0";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
 			knownRegions = (
@@ -119,7 +213,25 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8444D8AD2545080E008C3304 /* Position.swift in Sources */,
+				8444D8A52545062C008C3304 /* UCIEngine.swift in Sources */,
+				8444D8CE2545100A008C3304 /* ChessErrors.swift in Sources */,
+				8444D8CA25450F0B008C3304 /* PieceExtension.swift in Sources */,
+				8444D8992544FFF9008C3304 /* CommandLineParser.swift in Sources */,
+				8444D8A92545069F008C3304 /* Log.swift in Sources */,
+				8444D8B025450838008C3304 /* PositionExtension.swift in Sources */,
+				8444D8B32545097F008C3304 /* Piece.swift in Sources */,
+				8444D8BF25450E24008C3304 /* Board.swift in Sources */,
+				8444D8D12545104D008C3304 /* CastlingOptions.swift in Sources */,
 				8444D8902544FDD4008C3304 /* main.swift in Sources */,
+				8444D8C725450EDB008C3304 /* Evaluate.swift in Sources */,
+				8444D89D25450458008C3304 /* StringExtension.swift in Sources */,
+				8444D8B625450999008C3304 /* Player.swift in Sources */,
+				8444D8D425451096008C3304 /* BoardExtension.swift in Sources */,
+				8444D8C325450EB1008C3304 /* BestMove.swift in Sources */,
+				8444D8A12545054D008C3304 /* ArrayExtension.swift in Sources */,
+				8444D8BC25450BAE008C3304 /* Location.swift in Sources */,
+				8444D8B925450B36008C3304 /* Move.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
